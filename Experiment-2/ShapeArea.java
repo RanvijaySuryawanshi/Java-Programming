@@ -37,6 +37,6 @@ public class Shape{
         Shape s1 = new Shape(5.0);
         Shape s2 = new Shape(3);
         Shape s3 = new Shape(4, 6);
-        Shape s4 = new Shape(obj3);
+        Shape s4 = new Shape(s3);
     }
 }
