@@ -3,7 +3,7 @@ public class ChangeIndex{
         String s = "wuryawanshi";
         int index = 0;
         char ch = 'S';
-        str = s.substring(0, index) + ch + s.substring(index + 1);
+        s = s.substring(0, index) + ch + s.substring(index + 1);
         System.out.println(s);
     }
 }
