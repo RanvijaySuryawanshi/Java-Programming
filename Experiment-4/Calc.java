@@ -29,6 +29,7 @@ class Calc{
                 break;
             default:
                 System.out.println("Invalid Choice.");
+                break;
         }
         String z = x + " " + o + " " + y + " = " + c;
         System.out.println(z);
