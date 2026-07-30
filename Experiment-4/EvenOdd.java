@@ -6,7 +6,6 @@ public class EvenOdd{
 		String s = sc.nextLine();
 		Integer a =  Integer.valueOf(s);
 		int p = a.intValue();
-		System.out.println(s + " " + a + " " + p);
 		if (p%2 == 0)
 			System.out.print("Even");
 		else
