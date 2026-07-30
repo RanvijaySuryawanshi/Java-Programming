@@ -2,7 +2,7 @@ import java.util.Scanner;
 class Calc{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter binary arithmetic operation using + - * / or %: ");
+        System.out.print("Enter binary arithmetic operation: ");
         String x = sc.next();
         String o = sc.next();
         String y = sc.next();
