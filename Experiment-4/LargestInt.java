@@ -13,14 +13,14 @@ public class LargestInt{
 		w = Integer.valueOf(z);
 		int c = w.intValue();
 		String res;
-		if (a > b)		{
-			if (a > c)
+		if(a>b)		{
+			if(a>c)
 				res = "A";
 			else
 				res = "C";
 		}
 		else{
-			if (b > c)
+			if(b>c)
 				res = "B";
 			else
 				res = "C";
