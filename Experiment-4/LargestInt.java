@@ -1,10 +1,12 @@
 import java.util.Scanner;
 public class LargestInt{
     public static void main(String[] args) 	{
-		System.out.print("Enter 3 integers X Y Z: ");
 		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter X: ");
 		String x = sc.nextLine();
+		System.out.print("Enter Y: ");
 		String y = sc.nextLine();
+		System.out.print("Enter Z: ");
 		String z = sc.nextLine();
 		Integer w =  Integer.valueOf(x);
 		int a = w.intValue();
@@ -12,19 +14,19 @@ public class LargestInt{
 		int b = w.intValue();
 		w = Integer.valueOf(z);
 		int c = w.intValue();
-		String res;
+		String o;
 		if(a>b)		{
 			if(a>c)
-				res = "A";
+				o = "A";
 			else
-				res = "C";
+				o = "C";
 		}
 		else{
 			if(b>c)
-				res = "B";
+				o = "B";
 			else
-				res = "C";
+				o = "C";
 		}
-		System.out.print(res + " is the greatest integer");
+		System.out.print(o + " is the greatest integer");
     }
 }
