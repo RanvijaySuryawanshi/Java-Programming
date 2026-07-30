@@ -27,6 +27,8 @@ class Calc{
             case "%":
                 c = a % b;
                 break;
+            default:
+                System.out.println("Invalid Choice.");
         }
         String z = x + " " + o + " " + y + " = " + c;
         System.out.println(z);
