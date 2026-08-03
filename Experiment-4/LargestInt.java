@@ -15,7 +15,7 @@ public class LargestInt{
 		w = Integer.valueOf(z);
 		int c = w.intValue();
 		String o;
-		if(a>b)		{
+		if(a>b){
 			if(a>c)
 				o = "A";
 			else
