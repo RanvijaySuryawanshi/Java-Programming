@@ -7,8 +7,8 @@ public class DivideByZero {
             int a = sc.nextInt();
             System.out.print("Enter second number: ");
             int b = sc.nextInt();
-            int result = a / b;
-            System.out.println("Result = " + result);
+            int c = a / b;
+            System.out.println("Result = " + c);
         }
         catch (ArithmeticException e) {
             System.out.println("Error: Cannot divide by zero.");
