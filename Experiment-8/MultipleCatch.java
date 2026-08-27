@@ -2,14 +2,14 @@ import java.util.Scanner;
 public class MultipleCatch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] arr = {10, 20, 30, 40, 50};
+        int[] a = {10, 20, 30, 40, 50};
         try {
             System.out.print("Enter array index: ");
-            int index = sc.nextInt();
+            int i = sc.nextInt();
             System.out.print("Enter divisor: ");
-            int divisor = sc.nextInt();
-            System.out.println("Array element = " + arr[index]);
-            System.out.println("Result = " + (100 / divisor));
+            int d = sc.nextInt();
+            System.out.println("Array element = " + a[i]);
+            System.out.println("Result = " + (100 / d));
         }
         catch (ArithmeticException e) {
             System.out.println("Error: Cannot divide by zero.");
