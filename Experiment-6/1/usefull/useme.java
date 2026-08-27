@@ -8,7 +8,7 @@ public class useme{
         double result = basicSalary + allowance;
         System.out.println("Total Salary = " + result);
         }
-    public void percentage(double obtainedMarks, double totalMarks) {
+    public void percentage(double obtainedMarks, double totalMarks){
         double result = (obtainedMarks / totalMarks) * 100;
         System.out.println("Percentage = " + result + "%");
     }
