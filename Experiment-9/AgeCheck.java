@@ -9,7 +9,8 @@ public class AgeCheck {
                 throw new Exception("Age is less than 18!");
             }
             System.out.println("Eligible.");
-        } catch (Exception e) {
+        } 
+        catch (Exception e) {
             System.out.println(e.getMessage());
         }
     }
