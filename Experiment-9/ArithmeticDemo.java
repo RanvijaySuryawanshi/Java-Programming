@@ -9,7 +9,7 @@ public class ArithmeticDemo {
         try {
             divide();
         } 
-    catch (ArithmeticException e) {
+        catch (ArithmeticException e) {
             System.out.println("Cannot divide by zero!");
         }
     }
