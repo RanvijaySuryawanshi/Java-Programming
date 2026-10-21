@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class DateDetails {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter Date (dd-mm-yyyy): ");
-        String dateInput = input.nextLine();
+        String dateInput = sc.nextLine();
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
         LocalDate date = LocalDate.parse(dateInput, formatter);
